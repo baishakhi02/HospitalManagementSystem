@@ -1,5 +1,4 @@
 package org.anudip.hospitalManagementSystem.dao;
-
 import java.util.List;
 import org.anudip.hospitalManagementSystem.bean.Ward;
 

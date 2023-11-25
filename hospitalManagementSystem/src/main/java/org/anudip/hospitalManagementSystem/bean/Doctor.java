@@ -51,6 +51,7 @@ public class Doctor {
 	public String getSpecialization() {
 		return specialization;
 	}
+
 	public void setSpecialization(String specialization) {
 		this.specialization = specialization;
 	}
@@ -70,6 +71,4 @@ public class Doctor {
 	public void setPatientCount(Integer patientCount) {
 		this.patientCount = patientCount;
 	}
-
 }
-

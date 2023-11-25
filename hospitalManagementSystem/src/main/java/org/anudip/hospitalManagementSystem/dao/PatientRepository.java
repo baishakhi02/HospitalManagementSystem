@@ -11,4 +11,7 @@ public interface PatientRepository extends JpaRepository<Patient, Integer> {
 
 	@Query("select patientNumber from Patient")
 	public List<Integer> getAllPatientIds();
+
+	@Query("select patientNumber from Patient where medicalExp is null")
+	public List<Integer> getAddmitedPatientIds();
 }

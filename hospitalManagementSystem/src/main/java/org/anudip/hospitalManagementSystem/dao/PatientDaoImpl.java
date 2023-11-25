@@ -27,6 +27,7 @@ public class PatientDaoImpl implements PatientDao {
 	public Patient findPatientById(Integer patientId) {
 		return repository.findById(patientId).get();
 	}
+
 	@Override
 	public int generateNewPatientId() {
 		int newId = 1;
@@ -40,6 +41,11 @@ public class PatientDaoImpl implements PatientDao {
 	@Override
 	public List<Integer> getAllPatientIds() {
 		return repository.getAllPatientIds();
+	}
+	
+	@Override
+	public List<Integer> getAdmittedPatientIds() {
+		return repository.getAddmitedPatientIds();
 	}
 
 }

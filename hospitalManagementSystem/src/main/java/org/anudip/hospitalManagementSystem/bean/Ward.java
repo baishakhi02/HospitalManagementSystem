@@ -26,6 +26,7 @@ public class Ward {
 		this.available = available;
 		this.farePerDay = farePerDay;
 	}
+
 	public Ward(String wardId) {
 		super();
 		this.wardId = wardId;
@@ -58,6 +59,7 @@ public class Ward {
 	public Integer getAvailable() {
 		return available;
 	}
+
 	public void setAvailable(Integer available) {
 		this.available = available;
 	}
@@ -69,6 +71,4 @@ public class Ward {
 	public void setFarePerDay(Double farePerDay) {
 		this.farePerDay = farePerDay;
 	}
-
-
 }
